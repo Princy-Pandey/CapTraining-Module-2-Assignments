@@ -1,0 +1,21 @@
+<div class="container">
+  <!-- Alert here -->
+ <div class="app-level-alert">
+    <ng-alert [(message)]="message" [dismissable]="true" [closeType]="closeTypes.TIMES"></ng-alert>
+ </div>
+  <!-- /Alert here -->
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <app-list-employee></app-list-employee>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <app-create-employee></app-create-employee>
+      </div>
+    </div>
+  </div>
+
+</div>
